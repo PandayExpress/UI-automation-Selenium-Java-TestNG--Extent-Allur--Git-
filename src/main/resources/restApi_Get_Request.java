@@ -22,7 +22,7 @@ public class restApi_Get_Request {
 		int statusCode=response.getStatusCode();
 		System.out.println("Staus Code is:  "+statusCode);
 		Assert.assertEquals(statusCode, 200);
-		
+		System.out.println(testing);
 		
 		String statusLine=response.getStatusText();
 		System.out.println("Status Line is:   "+ statusLine.toString());
